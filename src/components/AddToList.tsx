@@ -51,7 +51,7 @@ const AddToList: React.FC<IProps> = ({setPeople, people}) => {
                 className="AddToList-input"
                 name="name"
                 value={input.name}
-                placeholder="Name"
+                placeholder="Isim"
             />
             <input 
                 type="text"
@@ -59,7 +59,7 @@ const AddToList: React.FC<IProps> = ({setPeople, people}) => {
                 className="AddToList-input"
                 name="age"
                 value={input.age}
-                placeholder="Age"
+                placeholder="Yas"
             />
             <input 
                 type="text"
@@ -67,14 +67,14 @@ const AddToList: React.FC<IProps> = ({setPeople, people}) => {
                 className="AddToList-input"
                 name="img"
                 value={input.img}
-                placeholder="Image Url"
+                placeholder="Resim Linki"
             />
             <textarea
                 onChange={handleChange}
                 className="AddToList-input"
                 name="country"
                 value={input.country}
-                placeholder="country"
+                placeholder="Ulke"
             />
             <button
                 onClick={handleClick}

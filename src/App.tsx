@@ -21,12 +21,12 @@ function App() {
       name: "LeBron James",
       age: 35,
       img: "https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png",
-      country: "Allegeric to staying on the same team",
+      country: "United States",
     },
     {
       name: "Kobe Bryant",
-      age: 42,
-      img: "https://fullpresscoverage.com/wp-content/uploads/2020/01/101524695-457220551.jpg"
+      age: 41,
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kobe_Bryant_2014.jpg/275px-Kobe_Bryant_2014.jpg"
     }
   ])
 
